@@ -34,8 +34,19 @@
 #services{
     background-image: url('../assets/backgrounds/s_image.jpg');
     background-size: cover;
-    padding: 4%;
+    padding: 7%;
 }
 #services p, #services h2{
     color: white;
+}
+
+/*What we do*/
+#what-we-do{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#what-we-do div{
+    padding: 3%;
+    margin-top: 1%;;
 }
