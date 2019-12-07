@@ -46,6 +46,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 3%;
 }
 #what-we-do div{
     direction: flex;
@@ -57,10 +58,30 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
-.card{
+#what-we-do .card{
     border: none;
 }
 
 #design-paragraph, #development-paragraph, #product-paragraph{
     display: none;
+}
+
+/*The portfolio section*/
+.container {
+    text-align: center;
+    align-items: center;
+    padding-top: 0;
+}
+
+#head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+#portfolio .card{
+    margin: 2%;
 }
