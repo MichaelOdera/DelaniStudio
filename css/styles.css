@@ -26,6 +26,6 @@
 }
 
 /*Styling the about Us bit*/
-.row{
-    overflow: hidden;
+#about{
+    padding: 1%;
 }
