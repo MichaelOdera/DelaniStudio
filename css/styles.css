@@ -51,11 +51,11 @@
     direction: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 350px;
 }
 #what-head{
     margin-top: 2%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 .card{
     border: none;
