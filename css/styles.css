@@ -29,3 +29,17 @@
 #about{
     padding: 1%;
 }
+
+/*Styling the Service Section*/
+#services{
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    background-size: cover;
+    padding: 4%;
+}
+#services p, #services h2{
+    color: white;
+    font-weight: bold;
+}
+#services p{
+    margin: 2%;
+}
