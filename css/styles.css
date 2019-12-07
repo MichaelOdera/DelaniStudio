@@ -47,8 +47,14 @@
     flex-wrap: wrap;
 }
 #what-we-do div{
-    padding: 3%;
+    direction: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
 }
 #what-head{
     margin-top: 2%;
+}
+.card{
+    border: none;
 }
