@@ -1,6 +1,6 @@
  $(document).ready(function () {
 
-     /*WHAT WE DOSECTIO STYLING*/
+     /*WHAT WE DO SECTION STYLING*/
      /*toggle for the design part*/
      $('#design-image').click(function () {
         $('#design-paragraph').show();
