@@ -1,3 +1,28 @@
-body{
-    background-image: url('../backgrounds/h_img.jpg');
+/*Styling the header part of the website*/
+.jumbotron-fluid{
+    background-image: url('../assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    padding: 1%;
 }
+
+.jumbotron-fluid img:first-child{
+    margin-top: 16%;
+    margin-bottom: 1%;
+}
+
+.jumbotron-fluid img:not(first-child){
+    margin-top: 12%;
+}
+
+.jumbotron-fluid h1, .jumbotron-fluid p{
+    color: white;
+}
+.jumbotron-fluid h1:first-of-type{
+    margin-top: 10%;
+}
+
+.jumbotron-fluid h1:not(:first-child){
+    margin-top: 4%;
+}
+
+/*Styling the about Us bit*/
