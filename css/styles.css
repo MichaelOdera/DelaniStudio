@@ -1,3 +1,7 @@
+/*Styling the google fonts*/
+body{
+    font-family: 'Archivo';
+}
 /*Styling the header part of the website*/
 .jumbotron-fluid{
     background-image: url('../assets/backgrounds/h_img.jpg');
@@ -167,5 +171,7 @@ button:hover{
         width: 100%;
     }
 }
+
+
 
 
