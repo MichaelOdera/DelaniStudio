@@ -67,7 +67,7 @@
 }
 
 /*The portfolio section*/
-.container-fluid{
+.portfolio{
     text-align: center;
     align-items: center;
     padding-top: 0;
@@ -100,9 +100,72 @@
 #portfolio .card img{
     width: 100%;
 }
+
+/*hiding overlays*/
 .card-img-overlay{
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
 }
 
-/*hiding overlays*/
+/*Contact Us Section*/
+.contact{
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-size: cover;
+    color: white;
+    padding: 4%;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.contact input[type=email], input[type=text]{
+    background: transparent;
+    width: 43%;
+    margin: 3%;
+    border: 2px solid white;
+    height: 3%;
+}
+textarea{
+    background: transparent;
+    margin-left: 7%;
+    border: 2px solid white;
+    width: 85%;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+button{
+    width: 40%;
+    margin-left: 30%;
+    color: white;
+    margin-top: 5%;
+    background-color: rgb(50, 20, 7);
+    border-radius: 10px;
+}
+button:hover{
+    cursor: grab;
+    background-color: rgba(0, 0, 0, 0.7);
+    outline: none;
+}
+
+
+/*styling the social media icons*/
+#social-icons{
+    padding: 1%;
+}
+
+#social-icons img{
+    margin: 1%;
+}
+
+@media screen and(max-width:700px){
+    input{
+        width: 100%;
+    }
+}
+
+
