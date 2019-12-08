@@ -93,6 +93,8 @@
     margin: 2%;
     padding: 4%;
     height: 90%;
+    text-align: left;
+    font-weight: bolder;
 }
 
 #portfolio .card img{
