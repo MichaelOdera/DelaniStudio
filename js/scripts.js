@@ -80,7 +80,7 @@
             if(nameInput !== "" && emailInput !== ""){
                 event.stopPropagation();
                 /*If details are in order, pop up confirmation message and proceed to the confirmation page*/
-                alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. The next window confirms the addition of your email "+emailInput+" subscription. Ensure that your pop ups are enabled for this site.");
+                alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. The next window confirms the addition of your email "+emailInput+" subscription. Enable pop ups to view that page.");
                 return true;
             }
             else{
