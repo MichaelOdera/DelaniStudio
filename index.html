@@ -165,32 +165,23 @@
 
     <!--This is the Contact Section-->
     <div class="container-fluid text-center contact">
-        <script>
-            $("#blanks form").submit(function (event) {
-                var name = $("input#name").val();
-                var email = $("input#email").val();
-                alert(name);
-                alert(email);
 
-                // blanks.forEach(function (blank) {
-                //     var userInput = $("input." + blank).val();
-                //     console.log(userInput);
-                //     $("." + blank).text(userInput).val();
-                // });
-
-                event.preventDefault();
-            });
-        </script>
         <h2 class="display-6">Contact Us</h2>
 
-        <form id="formsubmit">
-            <input type="text" id="name" placeholder="Name...">
+        <!--Embedded javascript-->
+        <form action="https://github.us4.list-manage.com/subscribe/post?u=8f782d40ada9acec11424c2ed&amp;id=714185eebb"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+            target="_blank" novalidate>
+            <input type="text" value="" name="NAME" placeholder="Name..." class="" id="mce-NAME">
 
-            <input type="email" id="email" placeholder="Email..." name="email">
+            <input type="email" value="" name="EMAIL" placeholder="Email..." class="required email" id="mce-EMAIL">
 
             <textarea id="exampleFormControlTextarea3" rows="7" placeholder="Your message here..."></textarea><br>
 
-            <button type="submit">Submit</button>
+
+
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+
         </form>
     </div>
     <!--The social icons-->
