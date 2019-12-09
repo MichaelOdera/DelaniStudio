@@ -165,18 +165,30 @@
 
     <!--This is the Contact Section-->
     <div class="container-fluid text-center contact">
+        <script>
+            $("#blanks form").submit(function (event) {
+                var name = $("input#name").val();
+                var email = $("input#email").val();
+                alert(name);
+                alert(email);
+
+                // blanks.forEach(function (blank) {
+                //     var userInput = $("input." + blank).val();
+                //     console.log(userInput);
+                //     $("." + blank).text(userInput).val();
+                // });
+
+                event.preventDefault();
+            });
+        </script>
         <h2 class="display-6">Contact Us</h2>
 
-        <form>
-
-
-            <input type="text" id="name" placeholder="Name..." name="name" style="color: white;">
+        <form id="formsubmit">
+            <input type="text" id="name" placeholder="Name...">
 
             <input type="email" id="email" placeholder="Email..." name="email">
 
             <textarea id="exampleFormControlTextarea3" rows="7" placeholder="Your message here..."></textarea><br>
-
-
 
             <button type="submit">Submit</button>
         </form>
