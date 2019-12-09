@@ -84,7 +84,7 @@
                 return true;
             }
             else{
-                alert("All fields must be filled before submission");
+                alert("All fields must be filled before submission.");
                 return false;
             }
 
