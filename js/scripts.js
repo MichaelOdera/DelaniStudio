@@ -80,7 +80,7 @@
             if(nameInput !== "" && emailInput !== ""){
                 event.stopPropagation();
                 /*If details are in order, pop up confirmation message and proceed to the confirmation page*/
-                alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. The next window confirms the addition of your email "+emailInput+" subscription");
+                alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. Your email "+emailInput+" is added to our subscription list. Enable pop ups to view confirmation.");
                 return true;
             }
             else{
