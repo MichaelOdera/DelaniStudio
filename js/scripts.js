@@ -73,12 +73,14 @@
     /*the .one() allows for a respone on one click event only*/
     $('button').one('click',function(){
         $('form.validate').submit(function(event){
+            /*assign user inputs to variables nameInput and emailInput*/
             var nameInput = $('input#mce-NAME').val();
             var emailInput = $('input#mce-EMAIL').val();
             /*Pop up to show validation of the reception of details*/
             if(nameInput !== "" && emailInput !== ""){
                 event.stopPropagation();
-                alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. The next window confirms your subscription");
+                /*If details are in order, pop up confirmation message and proceed to the confirmation page*/
+                alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. The next window confirms the addition of your email "+emailInput+" subscription");
                 return true;
             }
             else{
