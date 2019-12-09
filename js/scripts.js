@@ -70,13 +70,14 @@
     });
 
     /*This section describes the confirmation of receipt of details or otherwise with a corresponding alert message*/
-
-    $('button').click(function(){
+    /*the .one() allows for a respone on one click event only*/
+    $('button').one('click',function(){
         $('form.validate').submit(function(event){
             var nameInput = $('input#mce-NAME').val();
             var emailInput = $('input#mce-EMAIL').val();
             /*Pop up to show validation of the reception of details*/
             if(nameInput !== "" && emailInput !== ""){
+                event.stopPropagation();
                 alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. The next window confirms your subscription");
                 return true;
             }
