@@ -79,7 +79,7 @@
             /*Pop up to show validation of the reception of details*/
             if(nameInput !== "" && emailInput !== ""){
                 /*If details are in order, pop up confirmation message and proceed to the confirmation page*/
-                alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. Your email "+emailInput+" is added to our subscription list. Enable pop ups to view confirmation.");
+                alert("Welcome "+ nameInput + ", we have recieved your details. Thank you for visiting our site. The next page shows your request response. Enable pop ups to view confirmation.");
                 return true;
             }
             else{
