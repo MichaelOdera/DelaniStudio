@@ -30,6 +30,9 @@ After cloning the directory to your local machine in a particular directory, it 
 ## Troubleshooting
 Browse issues: https://github.com/MichaelOdera/DelaniStudio/issues
 
+## Codebeat Badge
+[![codebeat badge](https://codebeat.co/badges/6c143e54-f4d6-4013-bdfe-b7ae18dd5bdf)](https://codebeat.co/projects/github-com-michaelodera-253901-master)
+
 ## Support and Contact Details
 You may contact me through michogelira@gmail.com or +254733258286 if you need to reach out to me
 
